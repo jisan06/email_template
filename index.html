@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Email Verification</title>
+    </head>
+    <body>
+        <div>
+            <table border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; background-color: #fff; border: 1px solid #ddd;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="650">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div style="padding: 20px;">
+                                                <h3><b>Dear '.$name.'</b></h3>
+                                                <p>
+                                                    Thank you for your registration. Your registration will be complete when you confimr your email. Please click on the given link and verify your email.
+                                                </p>
+
+                                                <div style="text-align: center;margin-top: 30px;text-transform: uppercase;">
+                                                    <a href="'.$verification_link.'" style="text-decoration: none;background: #0f887c;color: #fff;padding: 10px;">Click here to verify</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="background-color: #0e4168;" height="40">
+                            <p style="padding: 0; margin: 0; color: #fff; font-size: 15px; line-height: 22px; font-weight: 700; text-align: center;">'.$website_information->website_name.'</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
